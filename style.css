@@ -1,0 +1,146 @@
+body{
+    /* Sign In */
+    background: linear-gradient(116.82deg, #132743 0%, #000000 100%);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+button:focus,  input:focus {
+    outline: none;
+}
+
+#sideTitle {
+    position: absolute;
+    width: 641px;
+    height: 1024px;
+    left: 63px;
+    top: -217px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18em;
+    line-height: 346px;
+    color: #EEEEEE;
+    mix-blend-mode: overlay;
+    opacity: 0.22;
+    word-break: break-all;
+}
+
+
+   /* MICROLISTS TITLE */
+
+#title {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    letter-spacing: 0.19em;
+    color: #FFFFFF;
+}
+
+.sigIn {
+    left: 65vw;
+    top: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form input{
+    padding: 20px;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 50px;
+    border: hidden;
+    margin-bottom: 15px;
+    background: #EEEEEE;
+    box-shadow: 0px 5px 3px 1px rgba(0, 0, 0, 0.25);
+    Font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: 0.063em;
+    color: #868080;
+}
+
+form input::placeholder {
+    Font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: 0.063em;
+    color: #868080;
+}
+
+form button {
+    background: #0085FF;
+    border-radius: 50px;
+    border: hidden;
+    padding: 20px;
+    width: 20vw;
+    height: 5vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+}
+
+form button:hover {
+    cursor: pointer;
+    background: #0367c5;
+}
+
+.informacao {
+    width: 25%;
+    position: absolute;
+    left: 62vw;
+    top: 68vh;
+}
+
+.notification {
+    border-radius: 15px;
+    margin-bottom: 1vh;
+    background-color: #242C37;
+    padding: 5px;
+}
+
+.notification p {
+    Font-family: Roboto;
+    font-size: 12px;
+    letter-spacing: 0.063em;
+    color: #868080;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.notification p a {
+    font-style: normal;
+    text-decoration: none;
+    color: #868080;
+    font-weight: bolder;
+}
+
+img {
+    position: absolute;
+    left: 95vw;
+    top: 2vh;
+    width: 3%;
+    height: auto;
+    opacity: 35%;
+}
+
+img:hover {
+    opacity: 65%;
+}
